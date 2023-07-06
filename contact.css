@@ -1,0 +1,65 @@
+body{
+    margin: 0px 0px;
+
+}
+/* Navbar start */
+#navbar{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: whitesmoke;
+    margin: 0px 0px;
+}
+#navbar div{
+    padding: 10px 40px;
+
+}
+
+#navbar li:hover{
+background-color: blue;
+border-radius: 10px;
+}
+#navitem2 a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+#navitem3{
+    margin-left: auto;
+} 
+#navitem3 ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-right: 0px;
+}
+#navitem3 li{
+    padding: 5px 0px;
+}
+#navitem3 a {
+    margin: 0px 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: large;
+    color: whitesmoke;
+}
+/* contact Information Here  */
+#contact {
+    margin: 50px 10px;
+    display: flex;
+}
+
+#part1 h1{
+    font-size: 50px;
+    margin: 10px 0px;
+}
+#part1 .details {
+    font-size: 20px;
+}
+#part2{
+    border: 2px solid;
+    margin: 25px auto;
+}
+#part2 img{
+    width: 500px;
+    margin: auto
+}

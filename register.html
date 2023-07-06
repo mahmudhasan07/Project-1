@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MH Dance Academy</title>
+    <script src="https://kit.fontawesome.com/41a0e61ba0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="home.css">
+    <style>
+        body{
+            background: url(regisbg.jpg) no-repeat center/cover;
+            color: whitesmoke;
+        }
+        section{
+            
+        }
+        #registerfrom {
+            
+            background-color: whitesmoke;
+            background: transparent;
+            border: 1px solid;
+            width: 50%;
+            margin: 50px auto;
+            box-shadow: 10px 10px 20px blue;
+            position: relative;
+
+        }
+        #registerfrom::before{
+            background-color: black;
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: -100;
+            opacity: 0.50;
+
+        }
+       #registerfrom h1{
+        text-align: center;
+        font-size: 50px;
+       } 
+       #registerfrom div{
+        text-align: center;
+       }
+       #registerfrom input{
+        width: 40%;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background: transparent;
+       }
+       #registerfrom select{
+        width: 30%;
+        background: transparent;
+        color: whitesmoke;
+       }
+       #registerfrom option{
+        background-color: black;
+       }
+       #registerfrom .btn{
+        width: 50%;
+        background-color: rgb(13, 13, 239);
+        color: whitesmoke;
+        padding: 5px 0px;
+        font-size: 15px;
+       }
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="navitem1">
+            logo
+        </div>
+        <div id="navitem2">
+            MH <br>Dance <br>Academy
+        </div>
+        <div id="navitem3">
+            <ul>
+                <li id="item1"><a href="">Home</a></li>
+                <li id="item2"><a href="">Register</a></li>
+                <li id="item3"><a href="">About Us</a></li>
+                <li id="item4"><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section >
+    <div id="registerfrom">
+        <h1><u>Fill Up This From</u></h1>
+       <div> Name : <input type="text" placeholder="Enter Your Name"></div><br>
+       <div> Email : <input type="email" placeholder="Enter Your Email"></div><br>
+       <div> Phone : <input type="number" placeholder="Enter Your Phone"></div><br>
+       <div> Age : <input type="number" placeholder="Enter Your Age"></div><br>
+       <div> Birth Of Date : <input type="date" placeholder="Birth Of Date"></div><br>
+       <div> Gender : <select name="Gender" id="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Others">Others</option>
+        </select></div><br>
+        <div><button class="btn">Submit Now</button>
+        </div>
+        <br>
+    </div>
+    </section>
+    
+    <footer>
+        <div class="footer">
+<P>All copyrights &copy;2023</P>
+        </div>
+        <div class="icon">
+            <i class="fa-brands fa-facebook fa-xl"></i>
+            <i class="fa-brands fa-instagram fa-xl" style="color: #ba1c1c;"></i>
+        </div>
+    </footer>
+</body>
+</html>
